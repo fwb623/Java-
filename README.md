@@ -10,13 +10,13 @@
 ## 2.实验方法：
 - main方法中创造一个cpu对象，cpu =cpu,cpu中的速度设置为2200，再加入一个构造方法id，把id设为骁龙980.
 ---
-                       ``` public void CPU {private int speed;
+                         public void CPU {private int speed;
                          private string  id;
                          int getSpeed（）{return speed；} 
                          public void setSpeed（int speed）{this.speed = speed; }
                          string getid () {return id;} 
                          public void setid(string id) {this.id = id}   
-                         ```      
+                              
 - main方法中创造一个HardDisk对象，HD =HD,HD中的amount设置为200，再加入一个构造方法type，把type设为机械硬盘.
 ---
                                         ```public void HardDisk {private int amount;
