@@ -17,8 +17,13 @@
                          string getid () {return id;} 
                          public void setid(string id) {this.id = id}   
                          ```      
-- main方法中创造一个HardDisk对象，HD =HD,HD中的amount设置为200，再加入一个构造方法type，把type设为机械硬盘.***
-                                        ```public void HardDisk {private int amount;private string type; int getamount（）{return amount; } public void setamount（int amount）{this.m = m; }string gettype（）{return type; } public void settype(string type）{this.type = type; }
+- main方法中创造一个HardDisk对象，HD =HD,HD中的amount设置为200，再加入一个构造方法type，把type设为机械硬盘.
+                                        ```public void HardDisk {private int amount;
+                                        private string type; 
+                                        int getamount（）{return amount; } 
+                                        public void setamount（int amount）{this.m = m; }
+                                        string gettype（）{return type; } 
+                                        public void settype(string type）{this.type = type; }
                                         ``` 
 ## 3.核心方法：
  PC公共类PC {CPU cpu; HardDisk HD；void setCPU（CPU cpu）{this.cpu = cpu; } 
