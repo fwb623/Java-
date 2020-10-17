@@ -18,6 +18,7 @@
                          public void setid(string id) {this.id = id}   
                          ```      
 - main方法中创造一个HardDisk对象，HD =HD,HD中的amount设置为200，再加入一个构造方法type，把type设为机械硬盘.
+---
                                         ```public void HardDisk {private int amount;
                                         private string type; 
                                         int getamount（）{return amount; } 
@@ -26,20 +27,20 @@
                                         public void settype(string type）{this.type = type; }
                                         ``` 
 ## 3.核心方法：
- PC公共类PC {CPU cpu; HardDisk HD；void setCPU（CPU cpu）{this.cpu = cpu; } 
+```public void PC {CPU cpu; HardDisk HD；void setCPU（CPU cpu）{this.cpu = cpu; } 
                                   void setHardDisk（HardDisk HD）{this.HD = HD; } 
                                   void show（）{
                                   System.out.println（“ cpu速度：” + cpu.getSpeed（））; 
                                   System.out.println（“ cpu名字：” + cpu.getid（））; 
                                   System.out.println（“硬盘容量：” + HD.getAmount（））;
-                                  System.out.println（“硬盘类型：” + HD.gettype（））;
-}
-CPU cpu = new CPU（）; ##硬盘HD =新的HardDisk（）;
+                                  System.out.println（“硬盘类型：” + HD.gettype（））;}
+                                  ```
+```public void Test{CPU cpu = new CPU（）; ##硬盘HD =新的HardDisk（）;
                                                       cpu.setSpeed（2200）; HD.setAmount（200）; 
                                                       cpu.setid（骁龙980）; HD.settype（机械硬盘）; 
                                                       PC pc =新PC（）;
                                                       pc.setCPU（cpu）; pc.setHardDisk（HD）; 
-                                                      pc.show（）;
+                                                      pc.show（）;}
 ## 5.实验结果
 cpu速度：2200硬盘容量：200 cpu名字：骁龙980 硬盘类型：机械硬盘 
 ## 6.实验感想
