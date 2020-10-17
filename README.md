@@ -4,14 +4,14 @@
 ## 实验内容：
 **用类描述计算机中的cpu模型，速度和硬盘的容量，要求java应用程序又4个类，名字分别为PC，CPU，HardDis，Test，把测试设为主类，掌握构造方法，实现定义属性的修饰符近似。**
 ## 实验方法：
-*** main方法中创造一个cpu对象，cpu =cpu,cpu中的速度设置为2200，再加入一个构造方法id，把id设为骁龙980. ***
+***main方法中创造一个cpu对象，cpu =cpu,cpu中的速度设置为2200，再加入一个构造方法id，把id设为骁龙980.***
 CPU公共类CPU {公共类CPU {private int speed;
                          private string  id;
                          int getSpeed（）{return speed；} 
                          public void setSpeed（int speed）{this.speed = speed; }
                          string getid () {return id;} 
                          public void setid(string id) {this.id = id}           
-main方法中创造一个HardDisk对象，HD =HD,HD中的amount设置为200，再加入一个构造方法type，把type设为机械硬盘.
+***main方法中创造一个HardDisk对象，HD =HD,HD中的amount设置为200，再加入一个构造方法type，把type设为机械硬盘.***
 HardDisk公共类HardDisk {公共类HardDisk {private int amount; 
                                         private string type; 
                                         int getamount（）{return amount; } 
