@@ -9,8 +9,9 @@
 ---
 ## 实验方法：
 - main方法中创造一个cpu对象，cpu =cpu,cpu中的速度设置为2200，再加入一个构造方法id，把id设为骁龙980.
-                        ```java
-                         private CPU {private int speed;
+---
+                        ```
+                         public void CPU {private int speed;
                          private string  id;
                          int getSpeed（）{return speed；} 
                          public void setSpeed（int speed）{this.speed = speed; }
